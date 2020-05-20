@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/vipladies.kiev.ua/webstat"
+AuthUserFile /var/www/krater1/data/etc/99625944.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
